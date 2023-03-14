@@ -1,0 +1,125 @@
+*{margin: 0; padding: 0;}
+
+*{cursor : url(IMG/cursor22.cur), url(IMG/cursor22.cur), auto;}
+
+.wrap{width: 1900px; height: 8000px; margin: auto; }
+
+*, .span_k, .con_wrap h1{font-family: 'Bebas Neue', cursive; font-family: 'Noto Sans KR', sans-serif;}
+h1, h5, h4, span{font-family: 'Bebas Neue', cursive;}
+h4{font-size: 100pt; text-align: center;}
+.main_p, .footer_p{font-family: 'Thesignature Regular'; font-style: normal;
+    font-weight: normal; src: local('Thesignature Regular'), url('Thesignature-OVx16.woff') format('woff');}
+
+.header{width: 1900px; height: 150px; background-color: rgb(0, 0, 0); float: left;}
+.header ul{list-style-type: none; height: 50px; width: 1500px; height: 55px; 
+        margin: auto; line-height: 150px;}
+.header ul li{float: left; font-size: 20px;font-weight: lighter; margin-left: 25px;}
+.header ul li a{color: #fff; text-decoration: none; padding: 0 80px;}
+.header ul li:first-child{padding-left:50px;}
+.header ul li .cards{height: 55px; display: inline-block; margin-top: 40px; }
+.header ul li a:hover{color: red; }
+
+.main{width: 1900px; height: 950px; background-color: rgb(0, 0, 0); float: left;}
+.main h1{font-size: 300px; text-align: center; color: red; margin-top: -50px;}
+.main p{color: #3786ff; font-size: 100px; text-align: center;}
+.building{margin-top: -255px; position: absolute; animation: transY 3s ease-in-out; width: 1900px;}
+@keyframes transY{0%{transform: translateY(200PX); opacity: 0;} 100%{transform: translateY(0px); opacity: 1;}}
+.main_title{margin-top: 100px;}
+
+.about{height:2250px; width: 1900px;background: url(IMG/ABOUT_back.png); 
+    background-repeat: no-repeat; float: left;}
+.about img{width: 400px; margin-top: 250px; margin-left: 750px;}
+.about h4{color: #fff; margin-top: 250px;}
+span{color: red;}
+.span_k{font-weight: bolder;}
+
+.col_img{width: 1200px; height: 435px; margin: auto; margin-top: 65px;}
+.col_img a{width: 292px;height: 435px; float: left; margin-right: 10px;}
+
+.col_img .a_1{background: url(IMG/main_img-nature\(white\).png); background-size: cover;}
+.col_img .a_1:hover{background: url(IMG/main_img-nature\(txt\).png); background-size: cover;}
+.col_img .a_2{background:url(IMG/main_img-CASINO\(WHITE\).png);background-size: cover;}
+.col_img .a_2:hover{background:url(IMG/main_img-CASINO\(TXT\).png);background-size: cover;}
+.col_img .a_3{background:url(IMG/main_img-HOTEL\(WHITE\).png);background-size: cover;}
+.col_img .a_3:hover{background:url(IMG/main_img-HOTEL\(TXT\).png);background-size: cover;}
+.col_img .a_4{background:url(IMG/main_img-SHOPPING\(WHITE\).png);background-size: cover;}
+.col_img .a_4:hover{background:url(IMG/main_img-SHOPPING\(TXT\).png);background-size: cover;}
+
+.col_img a:last-child{margin-right: 0;}
+
+
+
+.about_txt{text-align: center; margin-top: 80px;}
+.about_txt h5{font-size: 50px;}
+.about_p{margin-top: 50px; font-size: 15pt; line-height: 175%;}
+
+.about_icon{width: 1000px;height: 171px; margin: auto; margin-top: 80px;}
+.about_icon a{margin: auto;width: 171px; float: left; margin-right: 105px; height: 171px}
+.about_icon a:last-child{margin-right: 0;}
+
+.about_icon .i_1{background: url(IMG/ICON_black\ 2_1.png);}
+.about_icon .i_2{background: url(IMG/ICON_black\ 2-2.png);}
+.about_icon .i_3{background: url(IMG/ICON_black\ 2-3.png);}
+.about_icon .i_4{background: url(IMG/ICON_black\ 2-4.png);}
+
+.about_icon .i_1:hover{background: url(IMG/ICON_black1.png);transform: scale(1.2);}
+.about_icon .i_2:hover{background: url(IMG/ICON_black2.png);transform: scale(1.2);}
+.about_icon .i_3:hover{background: url(IMG/ICON_black3.png);transform: scale(1.2);}
+.about_icon .i_4:hover{background: url(IMG/ICON_black4.png);transform: scale(1.2);}
+
+.sightseeing{width: 1900px; height: 900px; float: left; margin-top: 200px;}
+.clsBannerScreen{margin-top: 80px;}
+
+.reservation{width: 1900px; height: 1800px; float: left;  margin-top: 200px;}
+.reservation h4{margin-top: 20px;}
+.reser_p{text-align: center; font-size: 20px; }
+.res_cont{width: 1200px; margin: auto; height: 1250px; margin-top: 100px; margin-bottom: 180px;}
+.cont_r{width: 300px; height: 600px; float: left; margin-right: 150px; margin-top: 15px;}
+.cont_r3, .cont_r6{margin-right: 0;}
+.cont_r img{width: 300px; height: 300px; border-radius: 50%;}
+.con_wrap{width: 300px; height: 350px; border-radius: 40px; background-color: rgb(230, 230, 230);
+margin-top: -75px;}
+.cont_txt p{color: rgb(77, 77, 77); font-size: 15px;}
+.cont_txt h1{font-size: 32px; font-weight: 700; word-spacing: -5px;}
+.cont_txt{float: left; margin-top:100px; margin-left: 30px; width: 300px; height: 80px;}
+.con_pri{float: right; text-align: right;width: 300px; height: 80px; margin-top: 5px; margin-right: 20px;}
+.con_pri p{font-size: 25px; text-decoration: line-through;font-weight: lighter;}
+.con_pri h1{font-size: 35px; color: red; font-weight: 700;}
+.cont_txt .h1_re{font-size: 28px;}
+button{float: left; width: 200px; height: 45px; border-radius: 40px; margin-top: 20px; margin-left: 50px;
+border: none; color: aliceblue; font-size: 20px; font-weight: bolder; background-color: black;}
+button:hover{color: red; scale: 1.15;}
+
+.footer{width: 1900px; height: 1500px; float: left; margin-top: 115px;}
+.footer{background: url(IMG/footer_back.png); background-size: cover;}
+.footer .play{width: 375px; height: 200px; margin: auto;}
+.footer_main{margin-top: 400px;}
+.footer h4{color: #fff; margin-top: 100px;}
+.footer .footer_p{color: red; font-size: 150px; text-align: center; margin-top: -30px;}
+.footer_txt{color: #fff; text-align: center; margin-top: 100px;}
+.footer_txt h5{font-size: 50px;}
+.footer_txt p{margin-top: 50px; font-size: 30px; font-weight: lighter; line-height: 200%;}
+.sns a{color: aliceblue; border: 1px solid aliceblue; width: 50px;
+    height: 50px;border-radius: 50% ; display: inline-block; text-align: center;
+    line-height: 50px; margin-top: 50px; margin-right: 20px;}
+.sns a:last-child{margin-right: 0;}
+.sns a i{transition: 0.5s;}
+.sns a:hover i{transform: rotateY(360deg);}
+.sns a:hover .fa-facebook-f{color: #3786ff;}
+.sns a:hover .fa-twitter{color: #002d70;}
+.sns a:hover .fa-instagram{color: #ff8437;}
+
+.top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    background-color: rgb(255, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+.top a{color: #fff;}
+.top:hover{background-color: rgb(255, 125, 125);}

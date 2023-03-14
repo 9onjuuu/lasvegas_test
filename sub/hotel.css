@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+
+*{cursor : url(img/cursor22.cur), url(img/cursor22.cur), auto;}
+
+*{font-family: 'Noto Sans KR', sans-serif; color: #fff;}
+
+.wrap{width: 1900px; height: 2500px; margin: auto;background-image: url(img/hotel_back_black.png);}
+
+.top{width: 1900px; height: 1000px; float: left;}
+.top .title{margin-top: 50px; margin-left: 681px;}
+.top_txt{text-align: center; margin-top: 100px;  font-size: 20px; line-height: 175%; font-weight: lighter;}
+.p_2{margin-top: 30px;}
+.top .go_back{width: 100px; margin-left: 900px; 
+    margin-top: 50px;}
+
+.main{width: 1900px; height: 500px; background-color: red; float: left;}
+.content{width: 1200px; margin: auto; height: 500px;}
+.main_img{width: 600px; height: 500px; float: left;}
+.main_img img{margin-top: 25px;}
+.main_txt{width: 600px; height: 500px; float: left;}
+.main_txt{text-align: center; margin-top: 160px;}
+.main_txt h3{font-size: 40px;}
+.main_txt p{font-size: 30px; margin-top: 20px;}
+
+.bottom{width: 1900px; height: 1000px;  float: left;}
+.swiper-container{width: 1500px; height: 1000px; margin: auto;}
+.swiper-wrapper{width: 1200px; margin: auto;}
+.swiper-slide img{width: 1200px; float: left;   
+    margin: 225px 0 0 150px;}
+
