@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="LasVegas.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> <!--CDN 링크 -->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.banner.js"></script>
+  
+    <script>
+      $(function() {
+        $("#slide").jQBanner({ //롤링을 할 영역의 ID 값
+          nWidth: 1900, //영역의 width
+          nHeight: 530, //영역의 height
+          nCount: 5, //돌아갈 이미지 개수
+          isActType: "left", //움직일 방향 (left, right, up, down)
+          nOrderNo: 1, //초기 이미지
+          nDelay: 2500 //롤링 시간 타임 (1000 = 1초)
+          /*isBtnType:"li"*/ //라벨(버튼 타입) - 여기는 안쓰임
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#sightseeing">SIGHTSEEING</a></li>
+          <li>
+            <a href=""><img class="cards" src="IMG/pngwing.com (4).png" alt=""/></a></li>
+          <li><a href="#reservation">RESERVATION</a></li>
+          <li><a href="#footer">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="main_cont">
+
+        <div class="main_title">
+          <p class="main_p">Disneyland for Adult</p>
+          <h1>las vegas</h1>
+        </div>
+        <img class="building" src="IMG/main_back.png" alt="">
+        </div>
+      </div>
+
+      <div class="about" >
+        <img src="IMG/welcome.png" alt="">
+        <h4 id="about">ABOUT</h4>
+
+        <div class="col_img">
+            <a class="a_1" href=""></a>
+            <a class="a_2" href="sub/casino.html"></a>
+            <a class="a_3" href="sub/hotel.html"></a>
+            <a class="a_4" href=""></a>
+        </div>
+
+        <div class="about_txt">
+          <h5>Why <span>LAS Vegas</span> is Disneyland for Adults</h5>
+          <p class="about_p">
+            미국 네바다주 최대의 관광 도시인 <span class="span_k">라스 베이거스</span>는 <br>
+            19세기 말까지는 소규모의 광업과 축산업을 하는 마을이었으나,<br>
+            캘리포니아와 솔트레이크시티를 잇는 철도가 완성되면서<br>
+            1911년, 현대적인 도시로 건설되기 시작하였다.<br>
+            카지노 시설이 늘어나면서 관광·환락지로서 각광을 받게 되었다.<br>
+            독특한 사막휴양지로서, 호화스런 호텔·음식점·공인도박장 등이 즐비하며,<br>
+            야간에도 관광객으로 성황을 이루어 ‘불야성’이라는 별명이 붙을 정도로 대환락가가 되었다.
+          </p>
+        </div>
+
+        <div class="about_icon">
+          <a class="i_1" href=""></a>
+          <a class="i_2" href=""></a>
+          <a class="i_3" href=""></a>
+          <a class="i_4" href=""></a>
+        </div>
+      </div>
+
+      <div class="sightseeing" id="sightseeing">
+        <h4>SIGHTSEEING</h4>
+
+        <div id="slide">
+          <div class="clsBannerScreen">
+            <div class="images" style="display:block"><img src="IMG/sightseeing_1.png" /></div>
+            <div class="images"><img src="IMG/sightseeing_2.png" /></div>
+            <div class="images"><img src="IMG/sightseeing_3.png" /></div>
+            <div class="images"><img src="IMG/sightseeing_4.png" /></div>
+            <div class="images"><img src="IMG/sightseeing_5.png" /></div>
+          </div>
+      </div>
+
+      </div>
+
+      <div class="reservation" id="reservation">
+        <h4>RESERVATION</h4>
+        <p class="reser_p">원하는 여정을 찾아 지금 예약하세요</p>
+
+        <div class="res_cont">
+
+          <div class="cont_r">
+              <img src="IMG/circle_1.JPG" alt="">
+              <div class="con_wrap">
+              <div class="cont_txt">
+                  <p>세계에서 가장 높은 전망</p>
+                  <h1>하이 롤러 관람차</h1>
+              </div>
+              <div class="con_pri">
+                  <p>53,000원</p>
+                  <h1>42,000원~</h1>
+              </div>
+              <button>예약하기 ></button>
+              </div>
+          </div>
+           
+          <div class="cont_r">
+              <img src="IMG/circle_2.jpg" alt="">
+              <div class="con_wrap">
+              <div class="cont_txt">
+                  <p>유명인 밀랍 인형이 한가득</p>
+                  <h1>마담투소 박물관</h1>
+              </div>
+              <div class="con_pri">
+                  <p>45,000원</p>
+                  <h1>40,000원~</h1>
+              </div>
+              <button>예약하기 ></button>
+          </div>
+          </div>
+           
+          <div class="cont_r cont_r3">
+              <img src="IMG/circle_3.jpg" alt="">
+              <div class="con_wrap">
+              <div class="cont_txt">
+                  <p>두 눈을 의심하게 되는</p>
+                  <h1 class="h1_re">데이비드 카퍼필드 쇼</h1>
+              </div>
+              <div class="con_pri">
+                  <p>150,000원</p>
+                  <h1>131,000원~</h1>
+              </div>
+              <button>예약하기 ></button>
+          </div>
+          </div>
+           
+          <div class="cont_r">
+              <img src="IMG/circle_4.jpg" alt="">
+              <div class="con_wrap">
+              <div class="cont_txt">
+                  <p>영화 속 한장면</p>
+                  <h1>타이타닉 박물관</h1>
+              </div>
+              <div class="con_pri">
+                  <p>50,000원</p>
+                  <h1>40,000원~</h1>
+              </div>
+              <button>예약하기 ></button>
+          </div>
+          </div>
+           
+          <div class="cont_r">
+              <img src="IMG/circle_5.jpg" alt="">
+              <div class="con_wrap">
+              <div class="cont_txt">
+                  <p>라스 베이거스를 한눈에</p>
+                  <h1>헬리콥터 비행 체험</h1>
+              </div>
+              <div class="con_pri">
+                  <p>300,000원</p>
+                  <h1>210,000원~</h1>
+              </div>
+              <button>예약하기 ></button>
+          </div>
+          </div>
+           
+          <div class="cont_r cont_r6">
+              <img src="IMG/circle_6.JPG" alt="">
+              <div class="con_wrap">
+              <div class="cont_txt">
+                  <p>무한성과 물의 여정</p>
+                  <h1>태양의 서커스 오쇼</h1>
+              </div>
+              <div class="con_pri">
+                  <p>300,000원</p>
+                  <h1>120,000원~</h1>
+              </div>
+              <button>예약하기 ></button>
+          </div>
+          </div>
+      </div>
+
+      <div class="footer" id="footer">
+        <div class="footer_main">
+          <div class="play">
+          <a href="https://imgbb.com/"><img src="https://i.ibb.co/qj4Yp1c/jackpot-slot.gif" alt="jackpot-slot"></a><br /><a target='_blank' href='https://imgbb.com/'></a>
+          </div>
+          <h4 class="small_h4">try your luck</h4>
+          <p class="footer_p">in Las Vegas</p>
+        </div>
+        <div class="footer_txt">
+          <h5>CONTACT</h5>
+
+          <div class="sns">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+
+          <p>Las_Vegas@trip.go.kr<br>
+          Copyright ©9onju_ All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="top">
+        <a href="#"><i class="fa fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </body>
+</html>
